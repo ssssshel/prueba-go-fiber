@@ -1,4 +1,4 @@
-module fiber_practice
+module github.com/ssssshel/prueba-go-fiber
 
 go 1.19
 
