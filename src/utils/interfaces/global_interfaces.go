@@ -1,12 +1,12 @@
 package global_interfaces
 
 type Response struct {
-	Message string
-	Data    any
+	Message string `json:"message"`
+	Data    any    `json:"data"`
 }
 
 type User struct {
-	Id        string
-	Firstname string
-	Lastname  string
+	Id        string `json:"id"`
+	Firstname string `json:"firstname"`
+	Lastname  string `json:"lastname"`
 }
